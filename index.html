@@ -6,13 +6,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>タイトル</title>
+    <script src="script.js"></script>
+
+  <title>トレーニングルーム予約</title>
 </head>
 
-<body>
-  <h1>タイトル</h1>
-  <img src="./images/example.png" alt="あざらし">
-  <script src="script.js"></script>
-</body>
+<body id = "haikei">
+<h1>トレーニングルームを選択してください</h1>
+<p id="komidasi">ご希望のトレーニングメニューをお選びください</p>
+
+    <div class = "tore">
+      <div class = "tore1">
+        <img class = "img" src="images/スクリーンショット 2026-07-01 155358 (2).png">
+        <p class = "setumei"><h4>トレーニングルーム1</h4>※3人以上で使用可能</p>
+        <button  class = "button1" onclick="location.href = 'DayAndTime.html'"><p class = "toresentaku">選択する</p></button>
+      </div>
+      <div class = "tore2">
+         <img class = "img" src="images/ランニングマシンで走る男性.png">
+         <p class = "setumei"><h4>トレーニングルーム2</h4>※1人でも使用可能</p>
+        <button  class = "button2" onclick="location.href = 'DayAndTime2.html'"><p class = "toresentaku">選択する</p></button>
+      </div>
+    </div>
+  </body>
 
 </html>
