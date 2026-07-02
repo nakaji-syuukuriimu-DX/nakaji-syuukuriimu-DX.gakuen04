@@ -109,6 +109,9 @@ h1,#komidasi{
 
 
 
+#table2-full-width {
+    width: 100%;
+}
 
 
  
@@ -130,3 +133,6 @@ h1,#komidasi{
     background: #3b7de0;
 }
  
+.yoyaku3{
+    height: 100px;
+}
